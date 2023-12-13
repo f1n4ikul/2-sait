@@ -186,3 +186,325 @@ body {
         height:150px;
     }
 }
+.section-form-page{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-form-page{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text-form-page h4{
+    color: var(--Text, #151875);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-form-page p{
+    color: var(--sub-text-color, #8A8FB9);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form-page{
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+.form-page p{
+    color: var(--sale-tage-coloe, #3F509E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.page{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.page input{
+    width: 55px;
+    height: 25px;
+    border: 1px solid #E7E6EF;
+}
+.sort{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.sort input{
+    border: 1px solid #E7E6EF;
+    width: 96px;
+    height: 28px;
+
+}
+.text-view{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.view{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.view input{
+    width: 162px;
+    height: 30px;
+    border: 1px solid #E7E6EF;
+}
+.container-cards{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.row-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    width: 270px;
+    height: 363px;
+}
+.top-card{
+    width: 270px;
+    height: 280px;
+    background-color: #F6F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot-card{
+    padding-top: 15px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bot-card h4{
+    color: var(--Text, #151875);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contain-color{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price p:first-child{
+    color: var(--Text, #151875);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price p:last-child{
+    color: var(--Accent, #FB2E86);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration:line-through;
+}
+.top-card-green{
+    width: 270px;
+    height: 280px;
+    background-color: #EBF4F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.div-img-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    gap: 10px;
+    bottom: 30px;
+    left: 20px;
+}
+.div-img-card img{
+    width: 16px;
+    height: 16px;
+}
+.circle-img{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-img{
+    width: 60%;
+    margin: 0 auto;
+}
+.container-img img{
+    width: 100%;
+}
+.section-cards{
+    margin-bottom: 100px;
+}
+.section-img{
+    margin-bottom: 70px;
+}
+footer{
+    background-color: #EEEFFB;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 94px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.container-footer{
+    width: 100%;
+
+}
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input-footer h3{
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-form-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.text-form-footer{
+    color: var(--sub-text-color, #8A8FB9);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.search {
+    width: 377px; /* Ширина поля с кнопкой */
+    display: flex;
+    border-radius: 5px;
+    min-height: 20px; /* Минимальная высота */
+    padding: 2px;
+    background-color: #FFF;
+}
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    outline: none; /* Убираем свечение в Chrome и Safari */
+     -webkit-appearance: none;/* Убираем рамку в Chrome и Safari */
+    width: 274px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    
+}
+input[type="submit"] {
+    width: 135px;
+    height: 39px;
+    border-radius: 3px;
+    border: none; /* Убираем рамку */
+    background-color: #FB2E86;/* Параметры фона */
+}
+input[value="Sing Up"]{
+    color: var(--bg-shade, #EEEFFB);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.input-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.headline-footer h4{
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-menu-footer p{
+    color: var(--sub-text-color, #8A8FB9);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.categories-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.text-menu-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bot-footer{
+    display: flex;
+    align-items: center;
+    background: #E7E4F8;
+    height: 53px;
+}
+.container-bot-footer{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-bot-footer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+@media(max-width: 1300px){
+    .top-footer{
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 80%;
+    }
+    .search{
+        width: 320px;
+    }
+    .container-bot-footer{
+        width: 90%;
+    }
+}
+@media(max-width: 725px){
+    .row-cards{
+        justify-content: center;
+    }
+}
